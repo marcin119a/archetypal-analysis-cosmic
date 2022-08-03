@@ -93,7 +93,7 @@ def statistics_results(detected_df,mse_df,stability_df,min_stability_df):
 
 
 
-def plot_extraction():
+def plot_extraction(scenarios):
 
     f, axes = plt.subplots(2, 3, figsize=(18, 15), sharex=False)
     for ax, scenario in zip(axes.flat,[1,2,3,4,5]):
