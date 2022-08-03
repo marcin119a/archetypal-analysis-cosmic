@@ -11,3 +11,4 @@
 This repository contains the following folders:
 - utils: COSMIC signatures profiles and usefull python functions
 - notebook: 2 Jupyter notebook to reproduce paper analysis
+- synthetic_catalogues: SigsPack synthetic catalogues for each scenario
