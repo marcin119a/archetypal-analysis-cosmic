@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 def extract_from_catalogues(samples,path,real_signatures=5,runs=10):
