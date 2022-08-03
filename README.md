@@ -15,7 +15,7 @@ This repository contains the following folders:
 - synthetic_catalogues: SigsPack synthetic catalogues for each scenario
 
 ## Usage
-- Archetypal_Analysis.ipynb can be executed indipendently
+- Archetypal_Analysis.ipynb can be executed after the installation of archetypal analysis package archetypes.py
 
 - Signature_Extraction.ipynb calculate metrics for each scenario after de novo extraction with SigProfilerExtractor. 
   Given the number of simulation and the size of the results to run the notebook is necessary to first perform de novo extraction for each scenario with
