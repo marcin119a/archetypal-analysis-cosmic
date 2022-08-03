@@ -9,5 +9,5 @@
 
 ## Repository Content
 This repository contains the following folders:
-- utils: COSMIC signatures profiles and function utils
+- utils: COSMIC signatures profiles and usefull python functions
 - notebook: 2 Jupyter notebook to reproduce paper analysis
