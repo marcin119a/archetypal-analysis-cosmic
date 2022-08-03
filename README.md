@@ -4,7 +4,7 @@
 
 - python 3.8.3
 - sklearn 0.24.2
-- archetypes.py : open source software at https://doi.org/10.25919/5d3958889f7ff
+- archetypes.py : open source software downloadable https://doi.org/10.25919/5d3958889f7ff
 
 
 ## Repository Content
