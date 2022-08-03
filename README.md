@@ -2,8 +2,7 @@
 
 ## Requisites
 
-- python 3.8.3
-- sklearn 0.24.2
+- python 3.8.3 , pandas 1.2.4 , numpy 1.21.2, matplotlib 3.4.2, sklearn 0.24.2
 - archetypes.py : open source software for archetypal analysis downloadable at https://doi.org/10.25919/5d3958889f7ff
 - SigProfilerExtractor : open source software for mutational signature extraction  downloadable at https://github.com/AlexandrovLab/SigProfilerExtractor
 
