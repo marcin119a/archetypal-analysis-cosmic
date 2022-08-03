@@ -29,7 +29,7 @@ index=['A[C>A]A', 'A[C>A]C', 'A[C>A]G', 'A[C>A]T',
        'G[T>G]A', 'G[T>G]C', 'G[T>G]G', 'G[T>G]T',
        'T[T>G]A', 'T[T>G]C', 'T[T>G]G', 'T[T>G]T']
 
-COSMIC_sig=pd.read_csv('./Utils/COSMIC_SBS_GRCh37.txt',sep='\t') 
+COSMIC_sig=pd.read_csv('./utils/COSMIC_SBS_GRCh37.txt',sep='\t') 
 
 
 
