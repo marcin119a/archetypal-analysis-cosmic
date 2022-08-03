@@ -33,11 +33,12 @@ COSMIC_sig=pd.read_csv('./utils/COSMIC_SBS_GRCh37.txt',sep='\t')
 
 
 
-scenarios={1:{'samples':[200,500],'path_from':'./Scenario_1/flat_','path_to': 'SigProfiler_results/Scenario_1/flat_'},
-          2:{'samples':[200,500],'path_from':'./Scenario_2/5_sim_no_flat_','path_to': 'SigProfiler_results/Scenario_2/5_sim_no_flat_'},
-          3:{'samples':[200,500,1000],'path_from':'./Scenario_3/eleven_sim_no_flat_','path_to': 'SigProfiler_results/Scenario_3/11_sim_no_flat_'},
-          4:{'samples':[200,500,1000,3000,5000],'path_from':'./Scenario_4/both_','path:to': 'SigProfiler_results/Scenario_4/both_'},
-          5:{'samples':[1000,3000,5000],'path_from':'./Scenario_5/all_sim_no_flat_','path_to': 'SigProfiler_results/Scenario_5/all_sim_no_flat_'}}          
+scenarios={1:{'samples':[200,500],'path_from':'/Scenario_1/flat_','path_to': 'SigProfiler_results/Scenario_1/flat_'},
+          2:{'samples':[200,500],'path_from':'/Scenario_2/5_sim_no_flat_','path_to': 'SigProfiler_results/Scenario_2/5_sim_no_flat_'},
+          3:{'samples':[200,500,1000],'path_from':'/Scenario_3/eleven_sim_no_flat_','path_to': 'SigProfiler_results/Scenario_3/11_sim_no_flat_'},
+          4:{'samples':[200,500,1000,3000,5000],'path_from':'/Scenario_4/both_','path:to': 'SigProfiler_results/Scenario_4/both_'},
+          5:{'samples':[1000,3000,5000],'path_from':'/Scenario_5/all_sim_no_flat_','path_to': 'SigProfiler_results/Scenario_5/all_sim_no_flat_'}}          
+        
 
 
 if __name__ == '__main__':
@@ -51,7 +52,7 @@ if __name__ == '__main__':
               for run in range(1,11):
                      for catalogue in catalogues:
                             print(f'Extraction with {catalogue} samples')
-                            synth_cat=pd.read_csv(path_from + f"{run}_{catalogue}.csv").iloc[:,1:]
+                            synth_cat=pd.read_csv('./synthetic_catalogues'+ path_from + f"{run}_{catalogue}.csv").iloc[:,1:]
                             synth_cat.index=index
                             file_name=path_to + f"{run}_{catalogue}"
 
