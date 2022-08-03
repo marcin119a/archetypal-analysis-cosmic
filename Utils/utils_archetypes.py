@@ -95,7 +95,7 @@ def statistics_results(detected_df,mse_df,stability_df,min_stability_df):
 def plot_extraction():
 
     f, axes = plt.subplots(2, 3, figsize=(18, 15), sharex=False)
-    for ax, scenario in zip(axes.flat,keys):
+    for ax, scenario in zip(axes.flat,[1,2,3,4,5]):
         ax.grid()
         ax.set_yticks(np.arange(0,11))
 
