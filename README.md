@@ -18,6 +18,6 @@ This repository contains the following folders:
 - Archetypal_Analysis.ipynb can be executed indipendently
 
 - Signature_Extraction.ipynb calculate metrics for each scenario after de novo extraction with SigProfilerExtractor. 
-  Given the number of simulation and the size of the results to run the notebook is necessary to first perform de novo extraction for each scenario with SigProfiler.
-  executing run_SigProfiler.py
+  Given the number of simulation and the size of the results to run the notebook is necessary to first perform de novo extraction for each scenario with
+  SigProfilerExtractor executing run_SigProfilerExtractor.py. The computation is really expensive and it may takes some times.
  
