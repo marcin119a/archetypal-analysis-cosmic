@@ -12,6 +12,7 @@ This repository contains the following folders:
 - utils: COSMIC signatures profiles and usefull python functions
 - notebook: 2 Jupyter notebook to reproduce paper analysis
 - synthetic_catalogues: synthetic catalogues generated with SigsPack for each scenario
+- archetype_profiles: the archetypal profiles identified
 
 ## Usage
 - **Archetypal_Analysis.ipynb** can be executed after the installation of archetypal analysis package archetypes.py
