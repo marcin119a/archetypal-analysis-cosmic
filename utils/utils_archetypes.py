@@ -203,3 +203,23 @@ def plot_extraction(scenarios):
     axes.flat[4].legend(title="Samples", loc="upper left")
     
     plt.show()
+    
+    
+def plot_archetypes(array,label,ax, ylim=1,archetypes=0):
+    
+    color = ((0.196,0.714,0.863),)*16 + ((0.102,0.098,0.098),)*16 + ((0.816,0.180,0.192),)*16 + ((0.777,0.773,0.757),)*16 +   ((0.604,0.777,0.408),)*16 + ((0.902,0.765,0.737),)*16
+    color = list(color)
+
+    width = max(array.shape)
+    x = np.arange(width)
+    if ax == None:
+        f,ax = plt.subplots(1,figsize=(20,10))
+    bars = ax.bar(x, array)
+
+    for h in range(len(x)):
+        bars[h].set_color(color[h])
+
+
+    plt.title('Archetypes '+str(archetypes+1))
+    plt.ylim(0, ylim)
+    plt.xlim(0, width)    
