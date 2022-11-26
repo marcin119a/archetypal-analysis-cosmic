@@ -55,7 +55,7 @@ if __name__ == '__main__':
                             
                             try:
                                    s=sigpro.sigProfilerExtractor('matrix', file_name , synth_cat.loc[COSMIC_sig['Type']].reset_index(), reference_genome="GRCh37", opportunity_genome = "GRCh37", context_type = "default", exome = False, 
-					minimum_signatures=1, maximum_signatures=25, nmf_replicates=30, resample = True, batch_size=1, cpu=8, gpu=True, nmf_init="random", precision= "single", matrix_normalization= "gmm", 
+					minimum_signatures=1, maximum_signatures=25, nmf_replicates=30, resample = True, batch_size=1, cpu=-1, gpu=True, nmf_init="random", precision= "single", matrix_normalization= "gmm", 
 					seeds= "random", cosmic_version=3.3,min_nmf_iterations= 10000, max_nmf_iterations=1000000, nmf_test_conv= 10000, nmf_tolerance= 1e-15,nnls_add_penalty=0.05,
 					nnls_remove_penalty=0.01, initial_remove_penalty=0.05)
                             
