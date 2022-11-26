@@ -15,9 +15,9 @@ This repository contains the following folders:
 - archetypal_profiles: the archetypal profiles identified
 
 ## Usage
-- **Archetypal_Analysis.ipynb** can be executed after the installation of archetypal analysis package archetypes.py
+- **Archetypal Analysis.ipynb** can be executed after the installation of archetypal analysis package archetypes.py
 
-- **Signature_Extraction.ipynb** calculate metrics for each scenario after de novo extraction with SigProfilerExtractor. 
+- **De-novo Extraction.ipynb** calculate metrics for each scenario after de novo extraction with SigProfilerExtractor. 
   Given the number of simulation and the size of the results we could not upload all the results; Hence to run the notebook is necessary to first perform de novo
   extraction for each scenario with SigProfilerExtractor executing **run_SigProfilerExtractor.py**.
   The computation is really expensive and it may takes some times. Results may vary due to the stocasthic nature of the noise that SigProfilerExtractor uses before
