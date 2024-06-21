@@ -1254,7 +1254,7 @@ def create_simplex_ax(AA, grid_on = True, gridcolor = '#EAECEE',
     #    
         ax.plot(lst_ax_0,lst_ax_1,linewidth=1.5, color=bordercolor, zorder=2) #, **edge_args )               
     
-        return fig    
+        return fig, ax
 
 
 def map_alfa_to_simplex(alfa, AA):
